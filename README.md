@@ -43,47 +43,33 @@
 
 <br/>
 
-<!-- 🐱 极简自动猫游戏 -->
-<div align="center">
-  <svg width="360" height="200" viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg">
-    <rect width="360" height="200" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
-    
-    <!-- 顶部题目 -->
-    <g>
-      <rect x="80" y="10" width="200" height="40" rx="8" fill="#161b22" stroke="#58a6ff" stroke-width="1.5"/>
-      <text x="180" y="36" text-anchor="middle" font-size="18" font-family="sans-serif" fill="#c9d1d9">
-        🧻 纸巾
-        <animate attributeName="textContent" values="🧻 纸巾;🥕 胡萝卜;🧻 纸巾;🥕 胡萝卜" dur="4s" repeatCount="indefinite" />
-      </text>
-    </g>
+<!-- ========== 猫猫游戏区（纯 Emoji + 锚点） ========== -->
+<div style="background:#161b22; border:2px solid #30363d; border-radius:16px; padding:20px; max-width:400px; margin:auto;">
+  <div style="font-size:1.5em; margin-bottom:15px;">
+    🐱 今天大开门想要：<!-- GAME_ITEM -->🧻 纸巾
+  </div>
 
-    <!-- 左边纸巾 -->
-    <text x="30" y="150" font-size="36">🧻</text>
-    <!-- 右边胡萝卜 -->
-    <text x="310" y="150" font-size="36">🥕</text>
-    
-    <!-- 小猫身体 -->
-    <text x="180" y="150" font-size="50" text-anchor="middle">🐱</text>
-    
-    <!-- 猫爪摆动 -->
-    <g transform="translate(180, 150)">
-      <text font-size="28" text-anchor="middle">
-        👋
-        <animateTransform attributeName="transform" type="rotate" values="-25 0 0;25 0 0;-25 0 0" dur="2s" repeatCount="indefinite" />
-      </text>
-    </g>
+  <div style="font-size:3em; margin:10px 0;">
+    🧻 🐱 🥕
+  </div>
 
-    <!-- 🎉 气泡（随机出现） -->
-    <g>
-      <rect x="120" y="50" width="120" height="30" rx="12" fill="#1f6feb" stroke="white" stroke-width="1">
-        <animate attributeName="opacity" values="0;0;1;0;0;0;1;0" dur="4s" repeatCount="indefinite" />
-      </rect>
-      <text x="180" y="70" text-anchor="middle" font-size="14" font-family="sans-serif" fill="white" font-weight="bold">
-        🎉蒸蚌！
-        <animate attributeName="opacity" values="0;0;1;0;0;0;1;0" dur="4s" repeatCount="indefinite" />
-      </text>
-    </g>
-  </svg>
+  <p style="margin:15px 0 5px;">👇 猜猜它会抓哪个？点击下方按钮 👇</p>
+
+  <a href="<!-- GAME_LEFT_LINK -->#result-left"><button style="font-size:1em; padding:8px 20px; margin:5px; border-radius:20px; background:#238636; color:white; border:none; cursor:pointer;">🧻 抓纸巾</button></a>
+  <a href="<!-- GAME_RIGHT_LINK -->#result-right"><button style="font-size:1em; padding:8px 20px; margin:5px; border-radius:20px; background:#238636; color:white; border:none; cursor:pointer;">🥕 抓胡萝卜</button></a>
+</div>
+
+<!-- 结果展示区（每日由 Actions 填写） -->
+<div style="margin-top:20px;">
+
+  <div id="result-left" style="padding:10px;">
+    <!-- GAME_LEFT_RESULT -->
+  </div>
+
+  <div id="result-right" style="padding:10px;">
+    <!-- GAME_RIGHT_RESULT -->
+  </div>
+
 </div>
 
 </div>
