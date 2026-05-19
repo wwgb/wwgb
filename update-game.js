@@ -2,29 +2,23 @@ const fs = require('fs');
 
 // 随机选择今日答案
 const items = ['🧻 纸巾', '🥕 胡萝卜'];
-const chosenIndex = Math.random() < 0.5 ? 0 : 1; // 0=纸巾, 1=胡萝卜
+const chosenIndex = Math.random() < 0.5 ? 0 : 1;
 const chosenItem = items[chosenIndex];
-const correctSide = chosenIndex === 0 ? 'left' : 'right'; // 纸巾在左，胡萝卜在右
+const correctSide = chosenIndex === 0 ? 'left' : 'right';
 
 let readme = fs.readFileSync('README.md', 'utf8');
 
-// 替换题目（可能会残留旧值，所以用正则全局替换）
+// 替换题目
 readme = readme.replace(
   /<!-- GAME_ITEM -->(🧻 纸巾|🥕 胡萝卜)/g,
   `<!-- GAME_ITEM -->${chosenItem}`
 );
 
-// 生成两个折叠框里的内容
-const winMessage = `
-<div style="font-size:2em;">🐱👉 ${chosenItem}</div>
-<div style="font-size:1.3em; color:#58a6ff;">🎉 蒸蚌！你猜对啦！</div>
-`;
-const loseMessage = `
-<div style="font-size:2em;">🐱👉 ${chosenItem}</div>
-<div style="font-size:1.3em; color:#f85149;">❌ 不对哦，大开门抓了${chosenItem}</div>
-`;
+// 生成结果内容（纯 Markdown + Emoji，无需 div）
+const winMessage = `🐱👉 ${chosenItem}\n\n🎉 **蒸蚌！你猜对啦！**`;
+const loseMessage = `🐱👉 ${chosenItem}\n\n❌ **不对哦，大开门抓了${chosenItem}**`;
 
-// 把赢的消息放到正确侧，输的消息放到错误侧
+// 将结果插入到对应的 <details> 块中
 if (correctSide === 'left') {
   readme = readme.replace('<!-- GAME_LEFT_RESULT -->', winMessage);
   readme = readme.replace('<!-- GAME_RIGHT_RESULT -->', loseMessage);
