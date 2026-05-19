@@ -2,7 +2,7 @@ name: Update Cat Game Daily
 
 on:
   schedule:
-    - cron: '0 1 * * *'   # 每天 UTC 1:00 运行
+    - cron: '0 1 * * *'   # 每天 UTC 1:00
   workflow_dispatch:
 
 jobs:
@@ -20,8 +20,6 @@ jobs:
 
       - name: Run game updater
         run: node update-game.js
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and push
         run: |
