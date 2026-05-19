@@ -3,26 +3,40 @@
 <!-- 项目展示区 -->
 <table>
   <tr>
-    <td align="center" valign="top">
-      <a href="https://github.com/wwgb/my-blog">
-        <img width="350" src="https://github-readme-stats.vercel.app/api/pin/?username=wwgb&repo=my-blog&theme=react&show_owner=true&cache_seconds=0" />
-      </a>
-      <br/>
-      <img src="https://img.shields.io/github/last-commit/wwgb/my-blog?label=updated&style=flat-square&color=blue" />
+    <td align="center" valign="top" width="50%">
+      <!-- 项目标题（可点击） -->
+      <h3>
+        <a href="https://github.com/wwgb/my-blog">📝 my-blog</a>
+      </h3>
+      <p><em>个人博客 - 记录学习与思考</em></p>
+
+      <!-- 最近更新徽章（实时） -->
+      <img src="https://img.shields.io/github/last-commit/wwgb/my-blog?label=🕒%20最近更新&style=flat-square&color=blue" />
+
+      <!-- 项目活跃热力图（自动生成） -->
+      <br/><br/>
+      <img src="https://repobeats.axiom.co/api/embed/wwgb/my-blog" 
+           alt="my-blog 仓库活跃热力图" width="400" />
     </td>
-    <td align="center" valign="top">
-      <a href="https://github.com/wwgb/weread2notion-pro">
-        <img width="350" src="https://github-readme-stats.vercel.app/api/pin/?username=wwgb&repo=weread2notion-pro&theme=react&show_owner=true&cache_seconds=0" />
-      </a>
-      <br/>
-      <img src="https://img.shields.io/github/last-commit/wwgb/weread2notion-pro?label=updated&style=flat-square&color=blue" />
+
+    <td align="center" valign="top" width="50%">
+      <h3>
+        <a href="https://github.com/wwgb/weread2notion-pro">📚 weread2notion-pro</a>
+      </h3>
+      <p><em>微信读书同步到 Notion（Pro版）</em></p>
+
+      <img src="https://img.shields.io/github/last-commit/wwgb/weread2notion-pro?label=🕒%20最近更新&style=flat-square&color=blue" />
+
+      <br/><br/>
+      <img src="https://repobeats.axiom.co/api/embed/wwgb/weread2notion-pro" 
+           alt="weread2notion-pro 仓库活跃热力图" width="400" />
     </td>
   </tr>
 </table>
 
 <br/>
 
-<!-- 贪吃蛇动画 -->
+<!-- 贪吃蛇动画（需确保 Actions 已运行过一次） -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wwgb/wwgb/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wwgb/wwgb/output/github-contribution-grid-snake.svg">
