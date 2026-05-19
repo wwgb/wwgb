@@ -56,7 +56,7 @@
 <details>
 <summary>🐱 点我试试今天的手气！</summary>
 
-<!-- GAME_RESULT -->
+🎉 蒸蚌！
 
 </details>
 
