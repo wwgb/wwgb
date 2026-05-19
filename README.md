@@ -13,8 +13,8 @@
               <div style="font-size: 0.85em; color: #8b949e; margin-top: 6px;">个人博客 - 记录学习与思考</div>
               <hr style="border-color: #30363d; margin: 12px 0;" />
               <div style="font-size: 0.8em; color: #8b949e;">
-                🕒 最近更新：<span style="color: #c9d1d9;"><!-- MYBLOG_LAST_UPDATED -->更新中...</span><br/>
-                📊 月提交：<span style="color: #c9d1d9;"><!-- MYBLOG_COMMITS -->--</span> 次
+                🕒 最近更新：<span style="color: #c9d1d9;"><!-- MYBLOG_LAST_UPDATED -->41天前</span><br/>
+                📊 月提交：<span style="color: #c9d1d9;"><!-- MYBLOG_COMMITS -->0</span> 次
               </div>
             </div>
           </foreignObject>
@@ -33,8 +33,8 @@
               <div style="font-size: 0.85em; color: #8b949e; margin-top: 6px;">微信读书同步到 Notion（Pro版）</div>
               <hr style="border-color: #30363d; margin: 12px 0;" />
               <div style="font-size: 0.8em; color: #8b949e;">
-                🕒 最近更新：<span style="color: #c9d1d9;"><!-- WEREAD_LAST_UPDATED -->更新中...</span><br/>
-                📊 月提交：<span style="color: #c9d1d9;"><!-- WEREAD_COMMITS -->--</span> 次
+                🕒 最近更新：<span style="color: #c9d1d9;"><!-- WEREAD_LAST_UPDATED -->796天前</span><br/>
+                📊 月提交：<span style="color: #c9d1d9;"><!-- WEREAD_COMMITS -->0</span> 次
               </div>
             </div>
           </foreignObject>
