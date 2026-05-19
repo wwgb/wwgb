@@ -43,39 +43,31 @@
 
 <br/>
 
-<!-- ========== 猫猫游戏区（折叠版） ========== -->
-<div style="background:#161b22; border:2px solid #30363d; border-radius:16px; padding:20px; max-width:400px; margin:auto;">
-  <div style="font-size:1.5em; margin-bottom:15px;">
-    🐱 今天大开门想要：<!-- GAME_ITEM -->🥕 胡萝卜
-  </div>
+<!-- ========== 猫猫游戏区（极简折叠，保证可用） ========== -->
+<div align="center">
 
-  <div style="font-size:3em; margin:10px 0;">
-    🧻 🐱 🥕
-  </div>
+**🐱 今天大开门想要：<!-- GAME_ITEM -->🧻 纸巾**
 
-  <p style="margin:15px 0 5px;">👇 猜猜它会抓哪个？点击下方按钮 👇</p>
+<div style="font-size:3em; margin:10px 0;">🧻 🐱 🥕</div>
 
-  <!-- 左边按钮 + 结果（由 Actions 每日填写） -->
-  <details style="margin:10px 0;">
-    <summary style="font-size:1em; padding:8px 20px; border-radius:20px; background:#238636; color:white; border:none; cursor:pointer; display:inline-block;">🧻 抓纸巾</summary>
-    <div style="margin-top:10px;">
-      
-<div style="font-size:2em;">🐱👉 🥕 胡萝卜</div>
-<div style="font-size:1.3em; color:#f85149;">❌ 不对哦，大开门抓了🥕 胡萝卜</div>
+<p>👇 猜猜它会抓哪个？点击下方按钮 👇</p>
 
-    </div>
-  </details>
+<!-- 左按钮 -->
+<details>
+<summary>🧻 抓纸巾</summary>
 
-  <!-- 右边按钮 + 结果 -->
-  <details style="margin:10px 0;">
-    <summary style="font-size:1em; padding:8px 20px; border-radius:20px; background:#238636; color:white; border:none; cursor:pointer; display:inline-block;">🥕 抓胡萝卜</summary>
-    <div style="margin-top:10px;">
-      
-<div style="font-size:2em;">🐱👉 🥕 胡萝卜</div>
-<div style="font-size:1.3em; color:#58a6ff;">🎉 蒸蚌！你猜对啦！</div>
+<!-- GAME_LEFT_RESULT -->
 
-    </div>
-  </details>
+</details>
+
+<!-- 右按钮 -->
+<details>
+<summary>🥕 抓胡萝卜</summary>
+
+<!-- GAME_RIGHT_RESULT -->
+
+</details>
+
 </div>
 
 </div>
