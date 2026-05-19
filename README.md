@@ -43,11 +43,48 @@
 
 <br/>
 
-<!-- 🐱 彩虹猫（替换原贪吃蛇） -->
-<a href="https://github.com/wwgb">
-  <img src="https://github-readme-nyan-cat.vercel.app/api?username=wwgb&show_icons=true&theme=radical" 
-       alt="Nyan Cat Stats" width="380" />
-</a>
+<!-- 🐱 纯本地像素猫 - 会眨眼摇尾巴 -->
+<div align="center">
+  <svg width="200" height="180" viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- 左耳 -->
+    <polygon points="60,45 45,10 80,30" fill="#ffb347" stroke="#333" stroke-width="2"/>
+    <!-- 右耳 -->
+    <polygon points="140,45 155,10 120,30" fill="#ffb347" stroke="#333" stroke-width="2"/>
+    <!-- 猫脸 -->
+    <circle cx="100" cy="100" r="55" fill="#ffb347" stroke="#333" stroke-width="3"/>
+    <!-- 左眼白 -->
+    <ellipse cx="78" cy="85" rx="12" ry="14" fill="white" stroke="#333" stroke-width="2"/>
+    <!-- 右眼白 -->
+    <ellipse cx="122" cy="85" rx="12" ry="14" fill="white" stroke="#333" stroke-width="2"/>
+    <!-- 左眼珠（会左右动） -->
+    <circle cx="78" cy="87" r="5" fill="#333">
+      <animate attributeName="cx" values="78;82;78;74;78" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <!-- 右眼珠 -->
+    <circle cx="122" cy="87" r="5" fill="#333">
+      <animate attributeName="cx" values="122;126;122;118;122" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <!-- 鼻子 -->
+    <polygon points="100,100 95,95 105,95" fill="#ff6b6b" stroke="#333" stroke-width="1.5"/>
+    <!-- 嘴巴 -->
+    <path d="M95,105 Q100,112 105,105" fill="none" stroke="#333" stroke-width="1.5"/>
+    <!-- 胡须 -->
+    <line x1="55" y1="95" x2="75" y2="98" stroke="#333" stroke-width="1.5"/>
+    <line x1="55" y1="105" x2="75" y2="103" stroke="#333" stroke-width="1.5"/>
+    <line x1="125" y1="98" x2="145" y2="95" stroke="#333" stroke-width="1.5"/>
+    <line x1="125" y1="103" x2="145" y2="105" stroke="#333" stroke-width="1.5"/>
+    <!-- 尾巴（会摇） -->
+    <path d="M40,135 Q20,120 15,105" fill="none" stroke="#ffb347" stroke-width="6" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" values="0 40 135;15 40 135;0 40 135;-15 40 135;0 40 135" dur="1.5s" repeatCount="indefinite" />
+    </path>
+    <!-- 小鱼干 -->
+    <g transform="translate(140, 130)">
+      <ellipse cx="0" cy="0" rx="12" ry="6" fill="#c9d1d9" stroke="#333" stroke-width="1.5"/>
+      <polygon points="12,-6 20,-10 20,10 12,6" fill="#c9d1d9" stroke="#333" stroke-width="1.5"/>
+      <circle cx="-4" cy="-2" r="1.5" fill="#333"/>
+    </g>
+  </svg>
+</div>
 
 </div>
 
