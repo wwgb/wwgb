@@ -1,50 +1,91 @@
 <div align="center">
 
-## 📂 我的项目
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://github.com/wwgb/my-blog">
+        <svg width="300" height="140" viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg">
+          <rect width="300" height="140" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+          <foreignObject x="15" y="15" width="270" height="110">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="color:#c9d1d9; font-family:sans-serif;">
+              <div style="font-size:1.1em; font-weight:bold; color:#58a6ff;">📝 my-blog</div>
+              <div style="font-size:0.85em; color:#8b949e; margin-top:5px;">个人博客 - 记录学习与思考</div>
+              <hr style="border-color:#30363d; margin:10px 0;"/>
+              <div style="font-size:0.8em; color:#8b949e;">
+                🕒 最近更新：<span style="color:#c9d1d9;"><!-- MYBLOG_LAST_UPDATED -->更新中...</span><br/>
+                📊 月提交：<span style="color:#c9d1d9;"><!-- MYBLOG_COMMITS -->--</span> 次
+              </div>
+            </div>
+          </foreignObject>
+        </svg>
+      </a>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/wwgb/weread2notion-pro">
+        <svg width="300" height="140" viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg">
+          <rect width="300" height="140" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+          <foreignObject x="15" y="15" width="270" height="110">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="color:#c9d1d9; font-family:sans-serif;">
+              <div style="font-size:1.1em; font-weight:bold; color:#58a6ff;">📚 weread2notion-pro</div>
+              <div style="font-size:0.85em; color:#8b949e; margin-top:5px;">微信读书同步到 Notion（Pro版）</div>
+              <hr style="border-color:#30363d; margin:10px 0;"/>
+              <div style="font-size:0.8em; color:#8b949e;">
+                🕒 最近更新：<span style="color:#c9d1d9;"><!-- WEREAD_LAST_UPDATED -->更新中...</span><br/>
+                📊 月提交：<span style="color:#c9d1d9;"><!-- WEREAD_COMMITS -->--</span> 次
+              </div>
+            </div>
+          </foreignObject>
+        </svg>
+      </a>
+    </td>
+  </tr>
+</table>
 
-### 📝 [my-blog](https://github.com/wwgb/my-blog)
-*个人博客 - 记录学习与思考*
+<br/>
 
-🕒 最近更新：<!-- MYBLOG_LAST_UPDATED -->更新中...  
-📊 月提交：<!-- MYBLOG_COMMITS -->-- 次
+<!-- 🐱 极简自动猫游戏 -->
+<div align="center">
+  <svg width="360" height="200" viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg">
+    <rect width="360" height="200" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+    
+    <!-- 顶部题目 -->
+    <g>
+      <rect x="80" y="10" width="200" height="40" rx="8" fill="#161b22" stroke="#58a6ff" stroke-width="1.5"/>
+      <text x="180" y="36" text-anchor="middle" font-size="18" font-family="sans-serif" fill="#c9d1d9">
+        🧻 纸巾
+        <animate attributeName="textContent" values="🧻 纸巾;🥕 胡萝卜;🧻 纸巾;🥕 胡萝卜" dur="4s" repeatCount="indefinite" />
+      </text>
+    </g>
 
----
+    <!-- 左边纸巾 -->
+    <text x="30" y="150" font-size="36">🧻</text>
+    <!-- 右边胡萝卜 -->
+    <text x="310" y="150" font-size="36">🥕</text>
+    
+    <!-- 小猫身体 -->
+    <text x="180" y="150" font-size="50" text-anchor="middle">🐱</text>
+    
+    <!-- 猫爪摆动 -->
+    <g transform="translate(180, 150)">
+      <text font-size="28" text-anchor="middle">
+        👋
+        <animateTransform attributeName="transform" type="rotate" values="-25 0 0;25 0 0;-25 0 0" dur="2s" repeatCount="indefinite" />
+      </text>
+    </g>
 
-### 📚 [weread2notion-pro](https://github.com/wwgb/weread2notion-pro)
-*微信读书同步到 Notion（Pro版）*
-
-🕒 最近更新：<!-- WEREAD_LAST_UPDATED -->更新中...  
-📊 月提交：<!-- WEREAD_COMMITS -->-- 次
-
----
-
-<!-- 🐱 像素猫动画（纯 SVG，如果显示不出来，可忽略） -->
-<svg width="200" height="180" viewBox="0 0 200 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <polygon points="60,45 45,10 80,30" fill="#ffb347" stroke="#333" stroke-width="2"/>
-  <polygon points="140,45 155,10 120,30" fill="#ffb347" stroke="#333" stroke-width="2"/>
-  <circle cx="100" cy="100" r="55" fill="#ffb347" stroke="#333" stroke-width="3"/>
-  <ellipse cx="78" cy="85" rx="12" ry="14" fill="white" stroke="#333" stroke-width="2"/>
-  <ellipse cx="122" cy="85" rx="12" ry="14" fill="white" stroke="#333" stroke-width="2"/>
-  <circle cx="78" cy="87" r="5" fill="#333">
-    <animate attributeName="cx" values="78;82;78;74;78" dur="4s" repeatCount="indefinite" />
-  </circle>
-  <circle cx="122" cy="87" r="5" fill="#333">
-    <animate attributeName="cx" values="122;126;122;118;122" dur="4s" repeatCount="indefinite" />
-  </circle>
-  <polygon points="100,100 95,95 105,95" fill="#ff6b6b" stroke="#333" stroke-width="1.5"/>
-  <path d="M95,105 Q100,112 105,105" fill="none" stroke="#333" stroke-width="1.5"/>
-  <line x1="55" y1="95" x2="75" y2="98" stroke="#333" stroke-width="1.5"/>
-  <line x1="55" y1="105" x2="75" y2="103" stroke="#333" stroke-width="1.5"/>
-  <line x1="125" y1="98" x2="145" y2="95" stroke="#333" stroke-width="1.5"/>
-  <line x1="125" y1="103" x2="145" y2="105" stroke="#333" stroke-width="1.5"/>
-  <path d="M40,135 Q20,120 15,105" fill="none" stroke="#ffb347" stroke-width="6" stroke-linecap="round">
-    <animateTransform attributeName="transform" type="rotate" values="0 40 135;15 40 135;0 40 135;-15 40 135;0 40 135" dur="1.5s" repeatCount="indefinite" />
-  </path>
-  <g transform="translate(140, 130)">
-    <ellipse cx="0" cy="0" rx="12" ry="6" fill="#c9d1d9" stroke="#333" stroke-width="1.5"/>
-    <polygon points="12,-6 20,-10 20,10 12,6" fill="#c9d1d9" stroke="#333" stroke-width="1.5"/>
-    <circle cx="-4" cy="-2" r="1.5" fill="#333"/>
-  </g>
-</svg>
+    <!-- 🎉 气泡（随机出现） -->
+    <g>
+      <rect x="120" y="50" width="120" height="30" rx="12" fill="#1f6feb" stroke="white" stroke-width="1">
+        <animate attributeName="opacity" values="0;0;1;0;0;0;1;0" dur="4s" repeatCount="indefinite" />
+      </rect>
+      <text x="180" y="70" text-anchor="middle" font-size="14" font-family="sans-serif" fill="white" font-weight="bold">
+        🎉蒸蚌！
+        <animate attributeName="opacity" values="0;0;1;0;0;0;1;0" dur="4s" repeatCount="indefinite" />
+      </text>
+    </g>
+  </svg>
+</div>
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" />
