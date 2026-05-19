@@ -8,30 +8,23 @@ const correctSide = chosenIndex === 0 ? 'left' : 'right'; // 纸巾在左，胡�
 
 let readme = fs.readFileSync('README.md', 'utf8');
 
-// 替换题目
-readme = readme.replace('<!-- GAME_ITEM -->🧻 纸巾', `<!-- GAME_ITEM -->${chosenItem}`);
-readme = readme.replace('<!-- GAME_ITEM -->🥕 胡萝卜', `<!-- GAME_ITEM -->${chosenItem}`);
+// 替换题目（可能会残留旧值，所以用正则全局替换）
+readme = readme.replace(
+  /<!-- GAME_ITEM -->(🧻 纸巾|🥕 胡萝卜)/g,
+  `<!-- GAME_ITEM -->${chosenItem}`
+);
 
-// 设置按钮链接（赢的按钮指向 #result-left，输的指向 #result-right）
-const leftLink = correctSide === 'left' ? '#result-left' : '#result-right';
-const rightLink = correctSide === 'right' ? '#result-left' : '#result-right';
-
-readme = readme.replace('<!-- GAME_LEFT_LINK -->#result-left', `<!-- GAME_LEFT_LINK -->${leftLink}`);
-readme = readme.replace('<!-- GAME_LEFT_LINK -->#result-right', `<!-- GAME_LEFT_LINK -->${leftLink}`);
-readme = readme.replace('<!-- GAME_RIGHT_LINK -->#result-left', `<!-- GAME_RIGHT_LINK -->${rightLink}`);
-readme = readme.replace('<!-- GAME_RIGHT_LINK -->#result-right', `<!-- GAME_RIGHT_LINK -->${rightLink}`);
-
-// 生成赢和输的消息
+// 生成两个折叠框里的内容
 const winMessage = `
 <div style="font-size:2em;">🐱👉 ${chosenItem}</div>
-<div style="font-size:1.5em; color:#58a6ff;">🎉 蒸蚌！你猜对啦！</div>
+<div style="font-size:1.3em; color:#58a6ff;">🎉 蒸蚌！你猜对啦！</div>
 `;
 const loseMessage = `
 <div style="font-size:2em;">🐱👉 ${chosenItem}</div>
-<div style="font-size:1.5em; color:#f85149;">❌ 不对哦，大开门抓了${chosenItem}</div>
+<div style="font-size:1.3em; color:#f85149;">❌ 不对哦，大开门抓了${chosenItem}</div>
 `;
 
-// 将赢消息放到正确的锚点下，输消息放到另一个
+// 把赢的消息放到正确侧，输的消息放到错误侧
 if (correctSide === 'left') {
   readme = readme.replace('<!-- GAME_LEFT_RESULT -->', winMessage);
   readme = readme.replace('<!-- GAME_RIGHT_RESULT -->', loseMessage);
