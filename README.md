@@ -1,9 +1,8 @@
 <div align="center">
 
-<!-- ========== 两栏布局 ========== -->
-<table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
-    <td align="center" valign="top" width="33%">
+    <td align="center" valign="top" width="33%" style="border-right: 1px solid #30363d; padding: 10px;">
       <div style="font-size:2em; margin:10px 0;">🧻 vs 🥕</div>
       <img src="cat.png" width="140" alt="小猫" />
       <br/>
@@ -12,10 +11,10 @@
         <!-- GAME_RESULT -->
       </details>
     </td>
-    <td align="center" valign="top" width="67%">
-      <table>
+    <td align="center" valign="top" width="67%" style="padding: 10px;">
+      <table border="0" cellpadding="0" cellspacing="0">
         <tr>
-          <td align="center">
+          <td align="center" style="padding: 5px;">
             <a href="https://github.com/wwgb/my-blog">
               <svg width="260" height="130" viewBox="0 0 260 130" xmlns="http://www.w3.org/2000/svg">
                 <rect width="260" height="130" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
@@ -33,7 +32,7 @@
               </svg>
             </a>
           </td>
-          <td align="center">
+          <td align="center" style="padding: 5px;">
             <a href="https://github.com/wwgb/weread2notion-pro">
               <svg width="260" height="130" viewBox="0 0 260 130" xmlns="http://www.w3.org/2000/svg">
                 <rect width="260" height="130" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
