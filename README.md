@@ -43,32 +43,20 @@
 
 <br/>
 
-<!-- ========== 猫猫游戏区（极简折叠，保证可用） ========== -->
+<!-- ========== 🧻 vs 🥕 每日运气游戏 ========== -->
 <div align="center">
 
-**🐱 今天大开门想要：<!-- GAME_ITEM -->🧻 纸巾**
+<div style="font-size:2em; margin:10px 0;">🧻 vs 🥕</div>
 
-<div style="font-size:3em; margin:10px 0;">🧻 🐱 🥕</div>
+<!-- 中间放你的 PNG 图（假设已上传 cat.png） -->
+<img src="cat.png" width="180" alt="小猫" />
 
-<p>👇 猜猜它会抓哪个？点击下方按钮 👇</p>
+<br/>
 
-<!-- 左按钮 -->
 <details>
-<summary>🧻 抓纸巾</summary>
+<summary>🐱 点我试试今天的手气！</summary>
 
-🐱👉 🧻 纸巾
-
-🎉 **蒸蚌！你猜对啦！**
-
-</details>
-
-<!-- 右按钮 -->
-<details>
-<summary>🥕 抓胡萝卜</summary>
-
-🐱👉 🧻 纸巾
-
-❌ **不对哦，大开门抓了🧻 纸巾**
+<!-- GAME_RESULT -->
 
 </details>
 
