@@ -47,6 +47,14 @@
 </picture>
 
 </div>
+<div align="center">
+  <a href="https://github.com/wwgb/my-blog">
+    <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=wwgb&repo=my-blog&theme=react" />
+  </a>
+  <a href="https://github.com/wwgb/weread2notion-pro">
+    <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=wwgb&repo=weread2notion-pro&theme=react" />
+  </a>
+</div>
 
 <!-- 底部波浪 -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer" />
