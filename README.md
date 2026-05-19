@@ -1,28 +1,22 @@
-<!-- 顶部动态波浪 -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Hi,%20I'm%20wwgb!&fontSize=60&fontAlignY=35" />
-
 <div align="center">
 
-<!-- 打字机动态介绍 -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=450&lines=Full-Stack+Developer;Open+Source+Contributor;Always+learning+new+things" alt="Typing SVG" />
-</a>
+<!-- 静态波浪横幅（稳定CDN） -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hi,%20I'm%20wwgb!&fontSize=60&fontAlignY=35&animation=fadeIn" />
 
 <br/>
 
-<!-- 个人网站风格的卡片 (SVG + foreignObject) -->
+<!-- 个人介绍卡片（纯 SVG，不依赖外部服务） -->
 <svg width="600" height="180" viewBox="0 0 600 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="600" height="180" rx="16" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <rect width="600" height="180" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
   <foreignObject x="20" y="20" width="560" height="140">
     <div xmlns="http://www.w3.org/1999/xhtml" style="color: #c9d1d9; font-family: -apple-system, 'Segoe UI', Roboto, sans-serif;">
       <div style="display: flex; gap: 20px; align-items: center;">
         <img src="https://github.com/wwgb.png" width="80" style="border-radius: 50%; border: 2px solid #58a6ff;" alt="avatar" />
         <div>
           <h2 style="margin: 0; font-size: 1.6em;">wwgb</h2>
-          <p style="margin: 5px 0; color: #8b949e;">🔧 Building useful tools &amp; themes</p>
+          <p style="margin: 5px 0; color: #8b949e;">🔧 Full-Stack Developer | Open Source Enthusiast</p>
         </div>
       </div>
-      <!-- 技能标签 -->
       <div style="margin-top: 15px;">
         <span style="background:#1f6feb; padding:4px 12px; border-radius:20px; font-size:0.8em; margin-right:6px;">JavaScript</span>
         <span style="background:#238636; padding:4px 12px; border-radius:20px; font-size:0.8em; margin-right:6px;">CSS</span>
@@ -35,22 +29,17 @@
 
 <br/>
 
-<!-- 统计卡片 -->
+<!-- GitHub 统计卡片（稳定，主题改为默认） -->
 <a href="https://github.com/wwgb">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=wwgb&show_icons=true&theme=react&count_private=true&include_all_commits=true" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=wwgb&show_icons=true&theme=default&count_private=true" />
 </a>
 <a href="https://github.com/wwgb">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wwgb&layout=compact&theme=react&hide=html" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wwgb&layout=compact&theme=default" />
 </a>
 
 <br/>
 
-<!-- 动态活动图 -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=wwgb&theme=react-dark&bg_color=20232a&hide_border=true" width="85%"/>
-
-<br/>
-
-<!-- 贪吃蛇动画 -->
+<!-- 贪吃蛇动画（待配置 Actions 后自动出现） -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wwgb/wwgb/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wwgb/wwgb/output/github-contribution-grid-snake.svg">
@@ -60,4 +49,4 @@
 </div>
 
 <!-- 底部波浪 -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=150&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer" />
