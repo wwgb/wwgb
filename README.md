@@ -43,7 +43,7 @@
 
 <br/>
 
-<!-- ========== 猫猫游戏区（纯 Emoji + 锚点） ========== -->
+<!-- ========== 猫猫游戏区（折叠版） ========== -->
 <div style="background:#161b22; border:2px solid #30363d; border-radius:16px; padding:20px; max-width:400px; margin:auto;">
   <div style="font-size:1.5em; margin-bottom:15px;">
     🐱 今天大开门想要：<!-- GAME_ITEM -->🧻 纸巾
@@ -55,27 +55,21 @@
 
   <p style="margin:15px 0 5px;">👇 猜猜它会抓哪个？点击下方按钮 👇</p>
 
-  <a href="<!-- GAME_LEFT_LINK -->#result-left"><button style="font-size:1em; padding:8px 20px; margin:5px; border-radius:20px; background:#238636; color:white; border:none; cursor:pointer;">🧻 抓纸巾</button></a>
-  <a href="<!-- GAME_RIGHT_LINK -->#result-right"><button style="font-size:1em; padding:8px 20px; margin:5px; border-radius:20px; background:#238636; color:white; border:none; cursor:pointer;">🥕 抓胡萝卜</button></a>
-</div>
+  <!-- 左边按钮 + 结果（由 Actions 每日填写） -->
+  <details style="margin:10px 0;">
+    <summary style="font-size:1em; padding:8px 20px; border-radius:20px; background:#238636; color:white; border:none; cursor:pointer; display:inline-block;">🧻 抓纸巾</summary>
+    <div style="margin-top:10px;">
+      <!-- GAME_LEFT_RESULT -->
+    </div>
+  </details>
 
-<!-- 结果展示区（每日由 Actions 填写） -->
-<div style="margin-top:20px;">
-
-  <div id="result-left" style="padding:10px;">
-    
-<div style="font-size:2em;">🐱👉 🧻 纸巾</div>
-<div style="font-size:1.5em; color:#58a6ff;">🎉 蒸蚌！你猜对啦！</div>
-
-  </div>
-
-  <div id="result-right" style="padding:10px;">
-    
-<div style="font-size:2em;">🐱👉 🧻 纸巾</div>
-<div style="font-size:1.5em; color:#f85149;">❌ 不对哦，大开门抓了🧻 纸巾</div>
-
-  </div>
-
+  <!-- 右边按钮 + 结果 -->
+  <details style="margin:10px 0;">
+    <summary style="font-size:1em; padding:8px 20px; border-radius:20px; background:#238636; color:white; border:none; cursor:pointer; display:inline-block;">🥕 抓胡萝卜</summary>
+    <div style="margin-top:10px;">
+      <!-- GAME_RIGHT_RESULT -->
+    </div>
+  </details>
 </div>
 
 </div>
