@@ -43,11 +43,11 @@
 
 <br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wwgb/wwgb/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wwgb/wwgb/output/github-contribution-grid-snake.svg">
-  <img alt="snake animation" src="https://raw.githubusercontent.com/wwgb/wwgb/output/github-contribution-grid-snake.svg">
-</picture>
+<!-- 🐱 彩虹猫（替换原贪吃蛇） -->
+<a href="https://github.com/wwgb">
+  <img src="https://github-readme-nyan-cat.vercel.app/api?username=wwgb&show_icons=true&theme=radical" 
+       alt="Nyan Cat Stats" width="380" />
+</a>
 
 </div>
 
