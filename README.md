@@ -63,11 +63,17 @@
 <div style="margin-top:20px;">
 
   <div id="result-left" style="padding:10px;">
-    <!-- GAME_LEFT_RESULT -->
+    
+<div style="font-size:2em;">🐱👉 🧻 纸巾</div>
+<div style="font-size:1.5em; color:#58a6ff;">🎉 蒸蚌！你猜对啦！</div>
+
   </div>
 
   <div id="result-right" style="padding:10px;">
-    <!-- GAME_RIGHT_RESULT -->
+    
+<div style="font-size:2em;">🐱👉 🧻 纸巾</div>
+<div style="font-size:1.5em; color:#f85149;">❌ 不对哦，大开门抓了🧻 纸巾</div>
+
   </div>
 
 </div>
