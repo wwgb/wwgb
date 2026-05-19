@@ -1,5 +1,6 @@
-<table style="width: 100%; table-layout: fixed; border-collapse: collapse; margin: 0; padding: 0;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
+    <!-- 游戏卡片 -->
     <td align="center" valign="top" style="padding: 6px;">
       <svg width="100%" viewBox="0 0 240 180" xmlns="http://www.w3.org/2000/svg">
         <rect width="240" height="180" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
@@ -15,6 +16,7 @@
         </foreignObject>
       </svg>
     </td>
+    <!-- 项目卡片1 -->
     <td align="center" valign="top" style="padding: 6px;">
       <a href="https://github.com/wwgb/my-blog">
         <svg width="100%" viewBox="0 0 240 180" xmlns="http://www.w3.org/2000/svg">
@@ -33,6 +35,7 @@
         </svg>
       </a>
     </td>
+    <!-- 项目卡片2 -->
     <td align="center" valign="top" style="padding: 6px;">
       <a href="https://github.com/wwgb/weread2notion-pro">
         <svg width="100%" viewBox="0 0 240 180" xmlns="http://www.w3.org/2000/svg">
