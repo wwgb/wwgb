@@ -1,42 +1,52 @@
 <div align="center">
 
-<!-- 项目展示区 -->
 <table>
   <tr>
     <td align="center" valign="top" width="50%">
-      <!-- 项目标题（可点击） -->
-      <h3>
-        <a href="https://github.com/wwgb/my-blog">📝 my-blog</a>
-      </h3>
-      <p><em>个人博客 - 记录学习与思考</em></p>
-
-      <!-- 最近更新徽章（实时） -->
-      <img src="https://img.shields.io/github/last-commit/wwgb/my-blog?label=🕒%20最近更新&style=flat-square&color=blue" />
-
-      <!-- 项目活跃热力图（自动生成） -->
-      <br/><br/>
-      <img src="https://repobeats.axiom.co/api/embed/wwgb/my-blog" 
-           alt="my-blog 仓库活跃热力图" width="400" />
+      <!-- my-blog 卡片 -->
+      <a href="https://github.com/wwgb/my-blog">
+        <svg width="320" height="160" viewBox="0 0 320 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="320" height="160" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+          <foreignObject x="16" y="16" width="288" height="128">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="color: #c9d1d9; font-family: -apple-system, 'Segoe UI', Roboto, sans-serif;">
+              <div style="font-size: 1.2em; font-weight: bold; color: #58a6ff;">📝 my-blog</div>
+              <div style="font-size: 0.85em; color: #8b949e; margin-top: 6px;">个人博客 - 记录学习与思考</div>
+              <hr style="border-color: #30363d; margin: 12px 0;" />
+              <div style="font-size: 0.8em; color: #8b949e;">
+                🕒 最近更新：<span style="color: #c9d1d9;"><!-- MYBLOG_LAST_UPDATED -->更新中...</span><br/>
+                📊 月提交：<span style="color: #c9d1d9;"><!-- MYBLOG_COMMITS -->--</span> 次
+              </div>
+            </div>
+          </foreignObject>
+        </svg>
+      </a>
     </td>
 
     <td align="center" valign="top" width="50%">
-      <h3>
-        <a href="https://github.com/wwgb/weread2notion-pro">📚 weread2notion-pro</a>
-      </h3>
-      <p><em>微信读书同步到 Notion（Pro版）</em></p>
-
-      <img src="https://img.shields.io/github/last-commit/wwgb/weread2notion-pro?label=🕒%20最近更新&style=flat-square&color=blue" />
-
-      <br/><br/>
-      <img src="https://repobeats.axiom.co/api/embed/wwgb/weread2notion-pro" 
-           alt="weread2notion-pro 仓库活跃热力图" width="400" />
+      <!-- weread2notion-pro 卡片 -->
+      <a href="https://github.com/wwgb/weread2notion-pro">
+        <svg width="320" height="160" viewBox="0 0 320 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="320" height="160" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+          <foreignObject x="16" y="16" width="288" height="128">
+            <div xmlns="http://www.w3.org/1999/xhtml" style="color: #c9d1d9; font-family: -apple-system, 'Segoe UI', Roboto, sans-serif;">
+              <div style="font-size: 1.2em; font-weight: bold; color: #58a6ff;">📚 weread2notion-pro</div>
+              <div style="font-size: 0.85em; color: #8b949e; margin-top: 6px;">微信读书同步到 Notion（Pro版）</div>
+              <hr style="border-color: #30363d; margin: 12px 0;" />
+              <div style="font-size: 0.8em; color: #8b949e;">
+                🕒 最近更新：<span style="color: #c9d1d9;"><!-- WEREAD_LAST_UPDATED -->更新中...</span><br/>
+                📊 月提交：<span style="color: #c9d1d9;"><!-- WEREAD_COMMITS -->--</span> 次
+              </div>
+            </div>
+          </foreignObject>
+        </svg>
+      </a>
     </td>
   </tr>
 </table>
 
 <br/>
 
-<!-- 贪吃蛇动画（需确保 Actions 已运行过一次） -->
+<!-- 贪吃蛇动画（Actions 已配置即可显示） -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wwgb/wwgb/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/wwgb/wwgb/output/github-contribution-grid-snake.svg">
