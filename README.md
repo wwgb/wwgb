@@ -56,7 +56,9 @@
 <details>
 <summary>🧻 抓纸巾</summary>
 
-<!-- GAME_LEFT_RESULT -->
+🐱👉 🧻 纸巾
+
+🎉 **蒸蚌！你猜对啦！**
 
 </details>
 
@@ -64,7 +66,9 @@
 <details>
 <summary>🥕 抓胡萝卜</summary>
 
-<!-- GAME_RIGHT_RESULT -->
+🐱👉 🧻 纸巾
+
+❌ **不对哦，大开门抓了🧻 纸巾**
 
 </details>
 
