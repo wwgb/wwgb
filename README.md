@@ -46,7 +46,7 @@
 <!-- ========== 猫猫游戏区（折叠版） ========== -->
 <div style="background:#161b22; border:2px solid #30363d; border-radius:16px; padding:20px; max-width:400px; margin:auto;">
   <div style="font-size:1.5em; margin-bottom:15px;">
-    🐱 今天大开门想要：<!-- GAME_ITEM -->🧻 纸巾
+    🐱 今天大开门想要：<!-- GAME_ITEM -->🥕 胡萝卜
   </div>
 
   <div style="font-size:3em; margin:10px 0;">
@@ -59,7 +59,10 @@
   <details style="margin:10px 0;">
     <summary style="font-size:1em; padding:8px 20px; border-radius:20px; background:#238636; color:white; border:none; cursor:pointer; display:inline-block;">🧻 抓纸巾</summary>
     <div style="margin-top:10px;">
-      <!-- GAME_LEFT_RESULT -->
+      
+<div style="font-size:2em;">🐱👉 🥕 胡萝卜</div>
+<div style="font-size:1.3em; color:#f85149;">❌ 不对哦，大开门抓了🥕 胡萝卜</div>
+
     </div>
   </details>
 
@@ -67,7 +70,10 @@
   <details style="margin:10px 0;">
     <summary style="font-size:1em; padding:8px 20px; border-radius:20px; background:#238636; color:white; border:none; cursor:pointer; display:inline-block;">🥕 抓胡萝卜</summary>
     <div style="margin-top:10px;">
-      <!-- GAME_RIGHT_RESULT -->
+      
+<div style="font-size:2em;">🐱👉 🥕 胡萝卜</div>
+<div style="font-size:1.3em; color:#58a6ff;">🎉 蒸蚌！你猜对啦！</div>
+
     </div>
   </details>
 </div>
