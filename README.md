@@ -10,7 +10,7 @@
         </details>
         <div style="font-size:0.7em; color:#8b949e; margin-top:12px; letter-spacing:0.5px;">每日更新</div>
         <!-- 👇 隐藏占位图片：宽度300px，颜色与卡片背景一致 -->
-        <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" width="100%" />
+        <img src="images/transparent_line.png" width="100%" />
       </div>
     </td>
     <td align="center" valign="top" width="34%">
@@ -26,7 +26,7 @@
           <div style="text-align:right; margin-top:12px;">
             <span style="font-size:0.8em; color:#58a6ff;">查看项目 →</span>
           </div>
-          <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" width="100%" />
+          <img src="images/transparent_line.png" width="100%" />
         </div>
       </a>
     </td>
@@ -43,7 +43,7 @@
           <div style="text-align:right; margin-top:12px;">
             <span style="font-size:0.8em; color:#58a6ff;">查看项目 →</span>
           </div>
-          <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" width="100%" />
+          <img src="images/transparent_line.png" width="100%" />
         </div>
       </a>
     </td>
