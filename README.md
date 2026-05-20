@@ -1,4 +1,9 @@
 <table style="width: 100%; table-layout: fixed; border-collapse: collapse; margin: 0; padding: 0;">
+  <colgroup>
+    <col style="width: 33.33%;">
+    <col style="width: 33.33%;">
+    <col style="width: 33.34%;">
+  </colgroup>
   <tr>
     <td align="center" valign="top" style="padding: 6px;">
       <svg width="100%" viewBox="0 0 240 180" xmlns="http://www.w3.org/2000/svg">
