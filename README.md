@@ -5,7 +5,7 @@
         <div style="font-size: 1.5em;">🧻 vs 🥕</div>
         <img src="cat.png" width="100" alt="小猫" />
         <div style="margin-top: 10px; font-size: 0.95em;">
-          🎉 蒸蚌！
+          <!-- GAME_RESULT -->
         </div>
         <div style="font-size: 0.7em; color: #8b949e; margin-top: 5px;">每日更新</div>
       </div>
