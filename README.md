@@ -4,9 +4,12 @@
       <div align="center" style="background: #0d1117; border: 1.5px solid #30363d; border-radius: 12px; padding: 20px 10px; color: #c9d1d9; font-family: sans-serif;">
         <div style="font-size: 1.5em;">🧻 vs 🥕</div>
         <img src="cat.png" width="100" alt="小猫" />
-        <div style="margin-top: 10px; font-size: 0.95em;">
-          <!-- GAME_RESULT -->
-        </div>
+        <details style="margin-top: 10px;">
+          <summary style="cursor: pointer; color: #58a6ff; font-size: 1em;">🐱 点我试试手气</summary>
+          <div style="margin-top: 10px; font-size: 0.95em;">
+            <!-- GAME_RESULT -->
+          </div>
+        </details>
         <div style="font-size: 0.7em; color: #8b949e; margin-top: 5px;">每日更新</div>
       </div>
     </td>
