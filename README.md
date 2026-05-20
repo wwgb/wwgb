@@ -1,5 +1,33 @@
-| 🎮 每日运气 | 📝 my-blog | 📚 weread2notion-pro |
-| :---: | :---: | :---: |
-| <div style="background: #0d1117; border: 1.5px solid #30363d; border-radius: 12px; padding: 20px 10px; color: #c9d1d9; font-family: sans-serif; min-height: 180px;"> <div style="font-size: 1.5em; margin: 5px 0;">🧻 vs 🥕</div> <img src="cat.png" width="100" alt="小猫" style="display: block; margin: 0 auto;" /> <details style="margin-top: 10px;"> <summary style="cursor: pointer; color: #58a6ff; font-size: 1em;">🐱 点我试试手气</summary> <div style="margin-top: 10px; font-size: 0.9em; color: #c9d1d9;"> <!-- GAME_RESULT --> </div> </details> </div> | <a href="https://github.com/wwgb/my-blog"><img src="https://github-readme-stats.vercel.app/api/pin/?username=wwgb&repo=my-blog&theme=react" width="100%" /></a> | <a href="https://github.com/wwgb/weread2notion-pro"><img src="https://github-readme-stats.vercel.app/api/pin/?username=wwgb&repo=weread2notion-pro&theme=react" width="100%" /></a> |
+<div align="center">
+
+<table>
+  <tr>
+    <!-- 第一栏：猫游戏 -->
+    <td valign="top" width="33%">
+      <div align="center">
+        <div style="font-size:1.5em; margin:10px 0;">🧻 vs 🥕</div>
+        <img src="cat.png" width="100" alt="小猫" />
+        <details>
+          <summary>🐱 点我试试手气</summary>
+          <!-- GAME_RESULT -->
+        </details>
+      </div>
+    </td>
+    <!-- 第二栏：my-blog 项目卡片 -->
+    <td valign="top" width="34%">
+      <a href="https://github.com/wwgb/my-blog">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=wwgb&repo=my-blog&theme=react" width="100%" />
+      </a>
+    </td>
+    <!-- 第三栏：weread2notion-pro 项目卡片 -->
+    <td valign="top" width="33%">
+      <a href="https://github.com/wwgb/weread2notion-pro">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=wwgb&repo=weread2notion-pro&theme=react" width="100%" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" width="100%" />
