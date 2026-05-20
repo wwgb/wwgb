@@ -1,47 +1,38 @@
-<table style="width:100%;">
-  <colgroup>
-    <col style="width:33%;">
-    <col style="width:34%;">
-    <col style="width:33%;">
-  </colgroup>
-  <tr>
-    <td align="center" valign="top">
-      <div style="font-size:1.5em;">🧻 vs 🥕</div>
-      <img src="cat.png" width="100" alt="小猫" />
-      <details>
-        <summary>🐱 点我试试手气</summary>
-        <div style="max-width:200px; word-wrap:break-word; font-size:0.9em; color:#c9d1d9; margin-top:5px;">
-          <!-- GAME_RESULT -->
-        </div>
-      </details>
-    </td>
-    <td align="center" valign="top">
-      <a href="https://github.com/wwgb/my-blog" style="text-decoration:none;">
-        <div style="background:#0d1117; border:1.5px solid #30363d; border-radius:12px; padding:15px; color:#c9d1d9; font-family:sans-serif; text-align:left;">
-          <div style="font-size:1.2em; font-weight:bold; color:#58a6ff;">📝 my-blog</div>
-          <div style="font-size:0.9em; color:#8b949e; margin-top:8px;">个人博客 - 记录学习与思考</div>
-          <hr style="border-color:#30363d; margin:12px 0;" />
-          <div style="font-size:0.85em; color:#8b949e;">
-            🕒 最近更新：<span style="color:#c9d1d9;"><!-- MYBLOG_LAST_UPDATED -->更新中...</span><br/>
-            📊 月提交：<span style="color:#c9d1d9;"><!-- MYBLOG_COMMITS -->--</span> 次
-          </div>
-        </div>
-      </a>
-    </td>
-    <td align="center" valign="top">
-      <a href="https://github.com/wwgb/weread2notion-pro" style="text-decoration:none;">
-        <div style="background:#0d1117; border:1.5px solid #30363d; border-radius:12px; padding:15px; color:#c9d1d9; font-family:sans-serif; text-align:left;">
-          <div style="font-size:1.2em; font-weight:bold; color:#58a6ff;">📚 weread2notion-pro</div>
-          <div style="font-size:0.9em; color:#8b949e; margin-top:8px;">微信读书同步到 Notion（Pro版）</div>
-          <hr style="border-color:#30363d; margin:12px 0;" />
-          <div style="font-size:0.85em; color:#8b949e;">
-            🕒 最近更新：<span style="color:#c9d1d9;"><!-- WEREAD_LAST_UPDATED -->更新中...</span><br/>
-            📊 月提交：<span style="color:#c9d1d9;"><!-- WEREAD_COMMITS -->--</span> 次
-          </div>
-        </div>
-      </a>
-    </td>
-  </tr>
-</table>
+<svg width="100%" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- 左栏：猫游戏卡片 -->
+  <rect x="0" y="0" width="290" height="200" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <text x="145" y="35" text-anchor="middle" fill="#c9d1d9" font-family="sans-serif" font-size="22" font-weight="bold">🧻 vs 🥕</text>
+  <image x="95" y="50" width="100" height="100" xlink:href="cat.png" preserveAspectRatio="xMidYMid meet"/>
+  <text x="145" y="175" text-anchor="middle" fill="#c9d1d9" font-family="sans-serif" font-size="14"><!-- GAME_RESULT --></text>
+  <text x="145" y="195" text-anchor="middle" fill="#8b949e" font-family="sans-serif" font-size="10">每日更新</text>
+
+  <!-- 中栏：my-blog 项目卡片 -->
+  <a xlink:href="https://github.com/wwgb/my-blog" target="_blank">
+    <rect x="305" y="0" width="290" height="200" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+    <text x="450" y="40" text-anchor="middle" fill="#58a6ff" font-family="sans-serif" font-size="18" font-weight="bold">📝 my-blog</text>
+    <text x="450" y="65" text-anchor="middle" fill="#8b949e" font-family="sans-serif" font-size="14">个人博客 - 记录学习与思考</text>
+    <line x1="330" y1="80" x2="570" y2="80" stroke="#30363d" stroke-width="1"/>
+    <text x="450" y="105" text-anchor="middle" fill="#8b949e" font-family="sans-serif" font-size="13">
+      🕒 最近更新：<tspan fill="#c9d1d9"><!-- MYBLOG_LAST_UPDATED -->更新中...</tspan>
+    </text>
+    <text x="450" y="130" text-anchor="middle" fill="#8b949e" font-family="sans-serif" font-size="13">
+      📊 月提交：<tspan fill="#c9d1d9"><!-- MYBLOG_COMMITS -->--</tspan> 次
+    </text>
+  </a>
+
+  <!-- 右栏：weread2notion-pro 项目卡片 -->
+  <a xlink:href="https://github.com/wwgb/weread2notion-pro" target="_blank">
+    <rect x="610" y="0" width="290" height="200" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+    <text x="755" y="40" text-anchor="middle" fill="#58a6ff" font-family="sans-serif" font-size="18" font-weight="bold">📚 weread2notion-pro</text>
+    <text x="755" y="65" text-anchor="middle" fill="#8b949e" font-family="sans-serif" font-size="14">微信读书同步到 Notion（Pro版）</text>
+    <line x1="635" y1="80" x2="875" y2="80" stroke="#30363d" stroke-width="1"/>
+    <text x="755" y="105" text-anchor="middle" fill="#8b949e" font-family="sans-serif" font-size="13">
+      🕒 最近更新：<tspan fill="#c9d1d9"><!-- WEREAD_LAST_UPDATED -->更新中...</tspan>
+    </text>
+    <text x="755" y="130" text-anchor="middle" fill="#8b949e" font-family="sans-serif" font-size="13">
+      📊 月提交：<tspan fill="#c9d1d9"><!-- WEREAD_COMMITS -->--</tspan> 次
+    </text>
+  </a>
+</svg>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" width="100%" />
