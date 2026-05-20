@@ -1,6 +1,6 @@
 <table width="100%">
   <tr>
-    <td valign="top" width="33%">
+    <td valign="top">
       <div align="center" style="background: #0d1117; border: 1.5px solid #30363d; border-radius: 12px; padding: 20px 10px; color: #c9d1d9; font-family: sans-serif;">
         <div style="font-size: 1.5em;">🧻 vs 🥕</div>
         <img src="cat.png" width="100" alt="小猫" />
@@ -10,7 +10,7 @@
         <div style="font-size: 0.7em; color: #8b949e; margin-top: 5px;">每日更新</div>
       </div>
     </td>
-    <td valign="top" width="67%">
+    <td valign="top">
       <table width="100%">
         <tr>
           <td valign="top" style="padding: 0 5px;">
