@@ -7,7 +7,7 @@
         <img src="cat.png" width="100" alt="小猫" />
         <details>
           <summary>🐱 点我试试手气</summary>
-          <!-- GAME_RESULT -->
+          😿 没抓到，今天是：🥕 胡萝卜
         </details>
       </div>
     </td>
