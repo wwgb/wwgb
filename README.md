@@ -1,39 +1,49 @@
 <table width="100%">
   <tr>
-    <td valign="top" width="33%">
-      <div align="center" style="background:#0d1117; border:1.5px solid #30363d; border-radius:12px; padding:20px 12px; color:#c9d1d9; font-family:sans-serif;">
-        <div style="font-size:1.5em;">🧻 vs 🥕</div>
-        <img src="cat.png" width="100" alt="小猫" />
-        <details style="margin-top:10px;">
-          <summary style="cursor:pointer; color:#58a6ff;">🐱 点我试试手气</summary>
-          <div style="margin-top:10px; font-size:0.95em;"><!-- GAME_RESULT --></div>
+    <td align="center" valign="top" width="33%">
+      <div style="background:#161b22; border:1.5px solid #30363d; border-radius:14px; padding:24px 16px; color:#e6edf3; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+        <div style="font-size:1.6em; font-weight:bold;">🧻 vs 🥕</div>
+        <img src="cat.png" width="100" alt="小猫" style="margin:14px 0;" />
+        <details style="margin-top:8px;">
+          <summary style="cursor:pointer; background:#238636; padding:8px 20px; border-radius:20px; color:white; font-weight:bold; display:inline-block;">🐱 点我试试手气</summary>
+          <div style="margin-top:14px; font-size:1.05em; font-weight:500;"><!-- GAME_RESULT --></div>
         </details>
-        <div style="font-size:0.7em; color:#8b949e; margin-top:8px;">每日更新</div>
+        <div style="font-size:0.7em; color:#8b949e; margin-top:12px; letter-spacing:0.5px;">每日更新</div>
+        <!-- 👇 隐藏占位图片：宽度300px，颜色与卡片背景一致 -->
+        <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" width="100%" />
       </div>
     </td>
-    <td valign="top" width="34%">
+    <td align="center" valign="top" width="34%">
       <a href="https://github.com/wwgb/my-blog" style="text-decoration:none;">
-        <div style="background:#0d1117; border:1.5px solid #30363d; border-radius:12px; padding:20px 15px; color:#c9d1d9; font-family:sans-serif;">
-          <div style="font-size:1.2em; font-weight:bold; color:#58a6ff;">📝 my-blog</div>
-          <div style="font-size:0.9em; color:#8b949e; margin-top:8px;">个人博客 - 记录学习与思考</div>
-          <hr style="border-color:#30363d; margin:12px 0;" />
-          <div style="font-size:0.85em; color:#8b949e;">
-            🕒 最近更新：<span style="color:#c9d1d9;"><!-- MYBLOG_LAST_UPDATED -->更新中...</span><br/>
-            📊 月提交：<span style="color:#c9d1d9;"><!-- MYBLOG_COMMITS -->--</span> 次
+        <div style="background:#161b22; border:1.5px solid #30363d; border-radius:14px; padding:24px 20px; color:#e6edf3; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+          <div style="font-size:1.3em; font-weight:bold; color:#58a6ff;">📝 my-blog</div>
+          <div style="font-size:0.9em; color:#8b949e; margin-top:8px;">个人博客 · 记录学习与思考</div>
+          <hr style="border-color:#30363d; margin:16px 0;" />
+          <div style="font-size:0.85em; color:#8b949e; line-height:1.7;">
+            🕒 最近更新：<span style="color:#e6edf3;"><!-- MYBLOG_LAST_UPDATED -->更新中...</span><br/>
+            📊 月提交：<span style="color:#e6edf3;"><!-- MYBLOG_COMMITS -->--</span> 次
           </div>
+          <div style="text-align:right; margin-top:12px;">
+            <span style="font-size:0.8em; color:#58a6ff;">查看项目 →</span>
+          </div>
+          <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" width="100%" />
         </div>
       </a>
     </td>
-    <td valign="top" width="33%">
+    <td align="center" valign="top" width="33%">
       <a href="https://github.com/wwgb/weread2notion-pro" style="text-decoration:none;">
-        <div style="background:#0d1117; border:1.5px solid #30363d; border-radius:12px; padding:20px 15px; color:#c9d1d9; font-family:sans-serif;">
-          <div style="font-size:1.2em; font-weight:bold; color:#58a6ff;">📚 weread2notion-pro</div>
+        <div style="background:#161b22; border:1.5px solid #30363d; border-radius:14px; padding:24px 20px; color:#e6edf3; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+          <div style="font-size:1.3em; font-weight:bold; color:#58a6ff;">📚 weread2notion-pro</div>
           <div style="font-size:0.9em; color:#8b949e; margin-top:8px;">微信读书同步到 Notion（Pro版）</div>
-          <hr style="border-color:#30363d; margin:12px 0;" />
-          <div style="font-size:0.85em; color:#8b949e;">
-            🕒 最近更新：<span style="color:#c9d1d9;"><!-- WEREAD_LAST_UPDATED -->更新中...</span><br/>
-            📊 月提交：<span style="color:#c9d1d9;"><!-- WEREAD_COMMITS -->--</span> 次
+          <hr style="border-color:#30363d; margin:16px 0;" />
+          <div style="font-size:0.85em; color:#8b949e; line-height:1.7;">
+            🕒 最近更新：<span style="color:#e6edf3;"><!-- WEREAD_LAST_UPDATED -->更新中...</span><br/>
+            📊 月提交：<span style="color:#e6edf3;"><!-- WEREAD_COMMITS -->--</span> 次
           </div>
+          <div style="text-align:right; margin-top:12px;">
+            <span style="font-size:0.8em; color:#58a6ff;">查看项目 →</span>
+          </div>
+          <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer" width="100%" />
         </div>
       </a>
     </td>
