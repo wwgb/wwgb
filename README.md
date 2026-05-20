@@ -6,7 +6,7 @@
         <img src="cat.png" width="100" alt="小猫" style="margin:14px 0;" />
         <details style="margin-top:8px;">
           <summary style="cursor:pointer; background:#238636; padding:8px 20px; border-radius:20px; color:white; font-weight:bold; display:inline-block;">🐱 点我试试手气</summary>
-          <div style="margin-top:14px; font-size:1.05em; font-weight:500;"><!-- GAME_RESULT --></div>
+          <div style="margin-top:14px; font-size:1.05em; font-weight:500;">😿 没抓到，今天是：🧻 纸巾</div>
         </details>
         <div style="font-size:0.7em; color:#8b949e; margin-top:12px; letter-spacing:0.5px;">每日更新</div>
         <!-- 👇 隐藏占位图片：宽度300px，颜色与卡片背景一致 -->
